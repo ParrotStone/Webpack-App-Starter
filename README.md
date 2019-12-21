@@ -7,7 +7,7 @@ It has boilerplate code and clean folder structure to get you up running quickly
 
 ---
 
-## version 
+## Version 
 1.0.0
 
 ---
@@ -17,17 +17,16 @@ It has boilerplate code and clean folder structure to get you up running quickly
 ## Installation
 
 Install the dependencies  
+
 `$ npm install`
 
-## Start
-
-To start the webpack development server
+## Start the deveopment server
 
 `$ npm start`
 
 ## Build
 
-To build for production into the dist folder
+To build for production ~ dist folder
 
 `$ npm run build`
 
