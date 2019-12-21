@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+
+// Overriding Bootstrap default styles
+$primary: #16a085;
+
+// @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+// // the ~ assumes the node_modules directory by default ;)
+@import '~bootstrap/scss/bootstrap.scss';
+// Although this is the right use in the sass documentation page, the css-loader doesn't support it and only supports the @import directive which it treats as import
+// @use '~bootstrap/scss/bootstrap';
+
+
+// Global variables
+$primary-color: #16a085;
+$secondary-color: #63e7a4;
+$bg-color: #333333;
+$font-color: #ffffff;
+$font-stack: 'Dosis', Verdana, Tahoma, sans-serif;
+
+body {
+    font-family: $font-stack;
+    font-size: 1.2rem;
+    background: url('../assets/ord-img.jpg') center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: $font-color;
+    position: relative;
+
+    .over {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 100vh;
+        background: rgba(0, 0, 0, .5);
+    }
+}
+
+#some {
+    .btn {
+        font-size: 1.1rem;
+    }
+}
+
+.container {
+    img {
+        width: 300px;
+        height: 400px;
+    }
+}
+
+// #some {
+//     background: linear-gradient(135deg,rgba(59,99,245,.99),#2a37b3 54%,#120038) 50% no-repeat;
+//     color: white;
+//     padding: 30px;
+// }
