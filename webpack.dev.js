@@ -18,7 +18,7 @@ module.exports = merge(common, {
                 use: [
                     'style-loader',  // inject the js(css) into the DOM(between <style> tags)
                     'css-loader',  // transpiles css to js
-                    'sass-loader'  // compiles sasss to css
+                    'sass-loader'  // compiles sass to css
                 ]
             },
         ]

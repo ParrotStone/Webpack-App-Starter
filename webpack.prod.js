@@ -34,9 +34,9 @@ module.exports = merge(common, {
             {
                 test: /\.scss$/i,
                 use: [
-                    MiniCssExtractPlugin.loader,  // inject the js(css) into the DOM(between <style> tags)
+                    MiniCssExtractPlugin.loader,  // extract the css code into a separate CSS file and inject a link tag in the HTML index output
                     'css-loader',  // transpiles css to js
-                    'sass-loader'  // compiles sasss to css
+                    'sass-loader'  // compiles sass to css
                 ]
             },
         ]
